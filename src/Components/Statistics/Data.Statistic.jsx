@@ -1,6 +1,5 @@
-import { Box } from '../Components/Box';
-
-import { getRandomHexColor } from '../Components/Utils/getRandomHexColor';
+import { Box } from 'Components/Box';
+import { getRandomHexColor } from 'Components/Utils/getRandomHexColor';
 export const Stat = ({ data }) =>
   data.map(e => (
     <Box

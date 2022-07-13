@@ -1,7 +1,7 @@
-import { Title } from "./Statistic.styled";
-import { Box } from "../Components/Box";
-import { Stat } from "./Data.Statistic";
-import PropTypes from "prop-types";
+import { Title } from './Statistic.styled';
+import { Box } from 'Components/Box';
+import { Stat } from './Data.Statistic';
+import PropTypes from 'prop-types';
 
 export const Statistic = ({ title, stats }) => (
   <Box as="section" width="300px" border="normal" mt={5}>

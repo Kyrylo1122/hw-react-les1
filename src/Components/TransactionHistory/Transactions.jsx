@@ -1,5 +1,5 @@
-import { TransactionLayer } from "./TransactionHistory.styled";
-import { Box } from "../Components/Box";
+import { TransactionLayer } from './TransactionHistory.styled';
+import { Box } from 'Components/Box';
 
 export const Transactions = ({ items }) => {
   return items.map(({ id, type, amount, currency }) => {

@@ -1,7 +1,7 @@
-import PropTypes from "prop-types";
-import { Transactions } from "./Transactions";
-import { Box } from "../Components/Box";
-import { Column } from "./TransactionHistory.styled";
+import PropTypes from 'prop-types';
+import { Transactions } from './Transactions';
+import { Box } from 'Components/Box';
+import { Column } from './TransactionHistory.styled';
 
 export const TransactionHistory = ({ trans }) => {
   return (

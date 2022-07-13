@@ -1,8 +1,8 @@
-import { Box } from "../Components/Box";
-import { Status } from "./FriendsList.styled";
-import PropTypes from "prop-types";
+import { Box } from '../Box';
+import { Status } from './FriendsList.styled';
+import PropTypes from 'prop-types';
 export const Friends = ({ friendsArr }) =>
-  friendsArr.map((e) => (
+  friendsArr.map(e => (
     <Box
       key={e.id}
       display="flex"

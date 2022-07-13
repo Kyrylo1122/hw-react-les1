@@ -1,6 +1,6 @@
-import { Box } from "../Components/Box";
-import { Title, Text, Stats, Amount } from "./Profile.styled";
-import PropTypes from "prop-types";
+import { Box } from 'Components/Box';
+import { Title, Text, Stats, Amount } from './Profile.styled';
+import PropTypes from 'prop-types';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => (
   <Box width={300} bg="grey">
@@ -12,9 +12,9 @@ export const Profile = ({ username, tag, location, avatar, stats }) => (
         borderRadius="50%"
         as="img"
       />
-      <Title className="name">{username}</Title>
-      <Text className="tag">@{tag}</Text>
-      <Text className="location">{location}</Text>
+      <Title>{username}</Title>
+      <Text>@{tag}</Text>
+      <Text>{location}</Text>
     </Box>
 
     <Box display="flex" width={0}>
@@ -26,8 +26,8 @@ export const Profile = ({ username, tag, location, avatar, stats }) => (
         width={0}
         p={4}
       >
-        <Stats className="label">Followers</Stats>
-        <Amount className="quantity">{stats.followers}</Amount>
+        <Stats>Followers</Stats>
+        <Amount>{stats.followers}</Amount>
       </Box>
       <Box
         display="flex"
@@ -37,8 +37,8 @@ export const Profile = ({ username, tag, location, avatar, stats }) => (
         width={0}
         p={4}
       >
-        <Stats className="label">Views</Stats>
-        <Amount className="quantity">{stats.views}</Amount>
+        <Stats>Views</Stats>
+        <Amount>{stats.views}</Amount>
       </Box>
       <Box
         display="flex"
@@ -48,8 +48,8 @@ export const Profile = ({ username, tag, location, avatar, stats }) => (
         width={0}
         p={4}
       >
-        <Stats className="label">Likes</Stats>
-        <Amount className="quantity">{stats.likes}</Amount>
+        <Stats>Likes</Stats>
+        <Amount>{stats.likes}</Amount>
       </Box>
     </Box>
   </Box>
